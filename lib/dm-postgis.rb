@@ -5,7 +5,7 @@ module DataMapper
     class DMGeometry < DataMapper::Type
       include GeoRuby::SimpleFeatures
       
-      primitive Geometry
+      primitive Text
       default nil
       lazy false
     
