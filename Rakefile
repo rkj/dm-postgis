@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'bundler'
 
 begin
   require 'jeweler'
@@ -10,7 +11,7 @@ begin
     gem.email = "roman.kamyk@gmail.com"
     gem.homepage = "http://github.com/rkj/dm-postgis"
     gem.authors = ["Roman Kamyk jr"]
-    gem.add_dependency 'GeoRuby', '>= 1.3.4'
+    gem.add_bundler_dependencies
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
