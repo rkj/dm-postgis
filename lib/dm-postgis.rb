@@ -3,8 +3,7 @@ require 'dm-core'
 
 module DataMapper
   class Property
-    #class DMGeometry < GeoRuby::SimpleFeatures::Geometry
-    class DMGeometry < Text
+    class DMGeometry < Object
       include GeoRuby::SimpleFeatures
 
       def primitive?(value)
