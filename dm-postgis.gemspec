@@ -48,21 +48,12 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<GeoRuby>, ["= 1.3.4"])
       s.add_runtime_dependency(%q<dm-core>, ["= 1.0.2"])
       s.add_runtime_dependency(%q<dm-postgres-adapter>, ["= 1.0.2"])
-      s.add_runtime_dependency(%q<GeoRuby>, ["= 1.3.4"])
-      s.add_runtime_dependency(%q<dm-core>, ["= 1.0.2"])
-      s.add_runtime_dependency(%q<dm-postgres-adapter>, ["= 1.0.2"])
     else
-      s.add_dependency(%q<GeoRuby>, ["= 1.3.4"])
-      s.add_dependency(%q<dm-core>, ["= 1.0.2"])
-      s.add_dependency(%q<dm-postgres-adapter>, ["= 1.0.2"])
       s.add_dependency(%q<GeoRuby>, ["= 1.3.4"])
       s.add_dependency(%q<dm-core>, ["= 1.0.2"])
       s.add_dependency(%q<dm-postgres-adapter>, ["= 1.0.2"])
     end
   else
-    s.add_dependency(%q<GeoRuby>, ["= 1.3.4"])
-    s.add_dependency(%q<dm-core>, ["= 1.0.2"])
-    s.add_dependency(%q<dm-postgres-adapter>, ["= 1.0.2"])
     s.add_dependency(%q<GeoRuby>, ["= 1.3.4"])
     s.add_dependency(%q<dm-core>, ["= 1.0.2"])
     s.add_dependency(%q<dm-postgres-adapter>, ["= 1.0.2"])

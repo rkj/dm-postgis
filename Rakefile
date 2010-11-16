@@ -11,7 +11,6 @@ begin
     gem.email = "roman.kamyk@gmail.com"
     gem.homepage = "http://github.com/rkj/dm-postgis"
     gem.authors = ["Roman Kamyk jr"]
-    gem.add_bundler_dependencies
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
