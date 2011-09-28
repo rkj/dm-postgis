@@ -42,5 +42,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "GeoRuby", "1.3.4"
   s.add_runtime_dependency "dm-core", dm_version
   s.add_runtime_dependency "dm-postgres-adapter", dm_version
+  s.add_development_dependency "dm-migrations", dm_version
+  s.add_development_dependency "rspec", "~>2.6.0"
 end
 

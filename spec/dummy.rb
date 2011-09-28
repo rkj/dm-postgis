@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'dm-core/spec/setup'
 require 'dm-core/spec/lib/adapter_helpers'
 require 'dm-migrations'
