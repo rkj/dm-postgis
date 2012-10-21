@@ -12,13 +12,12 @@ class Foo
   property :geom, PostGISGeometry
 end
 
-line = GeoRuby::SimpleFeatures::LineString.new(4236).tap {|l|
-  [[12.12,13.14], [12.13,14.15], [12.15,16.17]].each{|x,y| l.points << GeoRuby::SimpleFeatures::Point.from_x_y(x,y)}
-}
-
-
-f = Foo.new(:name => "random geometry", :geom => line)
-f.save
+# create a GeoRuby LineString
+line = GeoRuby::SimpleFeatures::LineString.new(4236)
+#add some points
+[[12.12,13.14], [12.13,14.15], [12.15,16.17]].each{|x,y| line.points << GeoRuby::SimpleFeatures::Point.from_x_y(x,y)}
+# stick it in the db!
+f = Foo.create(:name => "random geometry", :geom => line)
 ```
 
 
