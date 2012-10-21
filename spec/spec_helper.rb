@@ -2,7 +2,7 @@ require 'bundler/setup'
 require 'dm-core/spec/setup'
 require 'dm-core/spec/lib/adapter_helpers'
 require 'dm-migrations'
-require 'dm-postgis-types'
+require 'dm-postgis'
 
 ENV['ADAPTER']='postgres'
 

@@ -7,7 +7,7 @@ require 'dm-postgres-adapter'
 module DataMapper
 
   class Property
-    autoload :PostGISGeometry,            'dm-postgis-types/pg_geometry'
+    autoload :PostGISGeometry,            'dm-postgis/pg_geometry'
   end
 
   module PostGIS
