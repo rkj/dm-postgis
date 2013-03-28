@@ -1,7 +1,0 @@
-= dm-postgis
-
-Very simple type for datamapper allowing storing Geometry types in Postgis.
-
-== Copyright
-
-Copyright (c) 2010 Roman Kamyk jr. See LICENSE for details.
