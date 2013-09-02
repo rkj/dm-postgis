@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email = %q{roman.kamyk@gmail.com svs@svs.io}
   s.extra_rdoc_files = [
     "LICENSE",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
