@@ -27,8 +27,8 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/rkj/dm-postgis}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
   s.summary = %q{Geometry type for DataMapper}
+  s.license = 'MIT'
   s.test_files = [
     "spec/pg_geometry_spec.rb",
   ]
